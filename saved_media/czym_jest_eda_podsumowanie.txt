@@ -1,0 +1,13 @@
+Podsumowanie transkrypcji:
+
+1. **Eksploracyjna Analiza Danych (EDA)** - Jest to proces zrozumienia danych, ich problemów, tendencyjności oraz relacji. EDA prowadzi do lepszego poznania struktury danych.
+
+2. **Kroki EDA:**
+   - **Krok 1: Ogólne informacje o danych** - Obejmuje statystyki opisowe, takie jak średnie, odchylenie standardowe, kwartyle, mediana. Celem jest uzyskanie ogólnego obrazu danych.
+   - **Krok 2: Brakujące wartości** - Identyfikacja i praca z brakującymi wartościami bez ich pochopnego usuwania. To ważny aspekt charakterystyki danych.
+   - **Krok 3: Badanie pojedynczych kolumn** - Wykorzystanie histogramów i barplotów do pogłębionego zrozumienia rozkładów wartości w poszczególnych kolumnach.
+   - **Krok 4: Transformacja danych** - Transformacje takie jak uzupełnianie brakujących danych, usuwanie zepsutych rekordów, dodawanie nowych kolumn na bazie istniejących, np. poprzez analizę sentymentu.
+   - **Krok 5: Relacje między kolumnami** - Użycie narzędzi jak macierz korelacji i scatterplot do badania zależności między zmiennymi.
+   - **Krok 6: Wartości odstające** - Wykrywanie i analiza anomalii za pomocą wykresów boxplot i scatterplot, które mogą wpływać na modele analityczne.
+
+3. **Cel EDA:** - Poprzez sekwencje kroków EDA, celem jest pełne zrozumienie danych, co umożliwia efektywne modelowanie i predykcję.

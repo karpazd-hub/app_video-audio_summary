@@ -1,0 +1,15 @@
+Podsumowanie:
+
+1. **Autoryzacja w aplikacjach**: Aplikacje często wymagają autoryzacji poprzez nazwę użytkownika i hasło, aby chronić dane w bazie.
+   
+2. **Atak SQL Injection**: To technika ataku, w której napastnik wstrzykuje własny kod do aplikacji, omijając proces autoryzacji i uzyskując dostęp do danych w bazie.
+
+3. **Walidacja danych wejściowych**: Aplikacje powinny walidować dane wejściowe, aby zapobiec wstrzyknięciu złośliwego kodu. Brak walidacji czyni aplikację podatną na ataki.
+
+4. **Rola języka SQL**: Structured Query Language (SQL) jest często używany do dostępu do danych w relacyjnych bazach danych. SQL Injection pozwala na wstrzyknięcie własnych zapytań SQL w celu obejścia zabezpieczeń aplikacji.
+
+5. **Przykładowy atak**: Przykład pokazuje, jak poprzez modyfikację zapytania SQL ("SELECT * FROM users WHERE name='professor' OR '1'='1'") można uzyskać dostęp do wszystkich rekordów w bazie, omijając autoryzację i zabezpieczenia.
+
+6. **Wykorzystanie podatnych aplikacji**: Aplikacje takie jak WebGOAT, które są celowo podatne na ataki, pokazują, jak łatwo napastnik może uzyskać dostęp do danych, używając SQL Injection, np. poprzez manipulację polem dla imienia pracownika.
+
+Wniosek: SQL Injection jest poważnym zagrożeniem, które może prowadzić do pełnego dostępu do danych w bazach aplikacji, jeśli nie są one odpowiednio zabezpieczone przez walidację danych wejściowych.

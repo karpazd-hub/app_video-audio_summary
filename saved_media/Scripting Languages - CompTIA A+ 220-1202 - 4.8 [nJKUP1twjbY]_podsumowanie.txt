@@ -1,0 +1,15 @@
+1. **Automatyzacja i skrypty w IT**: Istnieje wiele metod automatyzacji procesów za pomocą różnych technologii skryptowych. Ważne jest użycie odpowiedniego skryptu do konkretnego zadania.
+
+2. **Języki skryptowe**: Wybór języka skryptowego może zależeć od aplikacji, zadania lub systemu operacyjnego, co wymaga znajomości różnych języków.
+
+3. **Windows**: W Windows można używać plików wsadowych (.bat) lub PowerShella (.ps1) do automatyzacji procesów. PowerShell oferuje zaawansowane funkcje dla administratorów systemu.
+
+4. **VBScript**: Microsoft Visual Basic Scripting Edition, często stosowany w aplikacjach Microsoft Office, również umożliwia skrypty poza linią komend.
+
+5. **Linux**: W Linuxie używa się skryptów powłoki (shell scripts), które często mają rozszerzenie .sh i są oznaczone jako shebang w kodzie.
+
+6. **JavaScript**: Używany do interaktywności w przeglądarkach, JavaScript (.js) jest odrębny od języka programowania Java.
+
+7. **Chmura i Python**: Usługi chmurowe promują skrypty niezależne od konkretnego systemu operacyjnego. Python (.py) jest popularny do tworzenia skryptów działających na różnych systemach.
+
+8. **Przykład skryptu**: Przedstawiono prosty skrypt powłoki z pętlą, który ilustruje podstawowy proces automatyzacji poprzez wprowadzanie i wyświetlanie tekstu. Skrypty mogą stać się bardziej złożone, umożliwiając automatyzację manualnych zadań.
